@@ -1,0 +1,20 @@
+{
+  "name": "honeycomb-grid",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "tsc -w & parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@svgdotjs/svg.js": "^3.2.0",
+    "honeycomb-grid": "^4.1.4",
+    "parcel-bundler": "^1.12.5",
+    "pixi.js": "^7.3.2",
+    "typescript": "^5.2.2"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "ts-node": "^10.9.1"
+  }
+}
